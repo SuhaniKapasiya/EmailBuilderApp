@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api/emails" });
+const API = axios.create({ baseURL: "https://emailbuilderapp.onrender.com/api/emails" });
 
 export const getEmailLayout = () => API.get("/getEmailLayout");
 
