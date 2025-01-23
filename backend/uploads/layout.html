@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Builder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .images img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{title}}</h1>
+  </header>
+  <main class="content">
+    <p>{{content}}</p>
+    <div class="images">{{imageUrls}}</div>
+  </main>
+  <footer>
+    <p>{{footer}}</p>
+  </footer>
+</body>
+</html>
