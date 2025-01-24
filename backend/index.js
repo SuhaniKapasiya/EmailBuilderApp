@@ -19,6 +19,7 @@ const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     origin: "https://emailbuilderapp-1.onrender.com", 
+    credentials: true, 
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"], 
   })
