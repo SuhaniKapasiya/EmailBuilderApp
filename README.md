@@ -78,13 +78,13 @@ PORT=5000
 
 - **Start the Backend**:
 ```bash
-cd server
+cd backend
 npm start
 ```
 
 - **Start the Frontend**:
 ```bash
-cd client
+cd frontend
 npm start
 ```
 
